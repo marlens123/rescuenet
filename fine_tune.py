@@ -20,7 +20,7 @@ parser.add_argument("--path_to_X_test", default="data/training/test_imgs.npy", t
 parser.add_argument("--path_to_y_test", default="data/training/test_masks.npy", type=str, help="Path to testing masks in .npy file format.")
 
 # hyperparameters
-parser.add_argument("--path_to_config", default="config/att_unet_2epochs.json", type=str, help="Path to config file that stores hyperparameter setting. For more information see 'config/README.md'.")
+parser.add_argument("--path_to_config", default="config/att_unet.json", type=str, help="Path to config file that stores hyperparameter setting. For more information see 'config/README.md'.")
 
 parser.add_argument("--use_wandb", action='store_true', help="Whether to use wandb for train monitoring.")
 
