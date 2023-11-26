@@ -1,0 +1,8 @@
+- augmentation
+
+- normalization (optional)
+- poly learning rate (optional)
+- label mapping
+
+
+batch size, learning rate, poly learning rate, color mapping
